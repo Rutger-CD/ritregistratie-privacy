@@ -5,7 +5,7 @@ title: Privacy policy — Weg.log Ritregistratie
 
 # Privacyverklaring — Weg.log Ritregistratie
 
-**Versie 1.0 — Laatst bijgewerkt: 2026-05-27**
+**Versie 1.1 — Laatst bijgewerkt: 2026-06-27**
 
 Deze privacyverklaring beschrijft welke gegevens de Weg.log Ritregistratie-app
 ("de app") verzamelt, waarom, hoe lang we ze bewaren en welke rechten je hebt
@@ -36,7 +36,18 @@ tussen je apparaten.
 - **Apparaat- en diagnose-informatie.** Bij het versturen van feedback via de
   "Stuur feedback"-knop voegt de app automatisch de app-versie, het
   apparaatmodel en de Android-versie toe — uitsluitend om bugrapporten
-  reproduceerbaar te maken.
+  reproduceerbaar te maken. Dezelfde diagnostische momentopname (inclusief
+  recente technische app-logs, géén GPS/route) kan op verzoek van support ook
+  zonder jouw tussenkomst worden opgehaald; zie *Diagnostiek, crashrapportage
+  en gebruiksstatistieken* hieronder.
+- **Diagnostische gebeurtenissen (crash- en gebruiksstatistieken).** Om de app
+  stabiel te houden en te verbeteren registreert de app technische
+  gebeurtenissen — crashes, niet-fatale fouten en kerngebeurtenissen zoals een
+  rit die start of afrondt, een export, een synchronisatie of een knop-actie.
+  Als je bent ingelogd, worden deze gebeurtenissen gekoppeld aan je
+  gebruikers-id zodat een storing gericht onderzocht kan worden. Dit gebeurt
+  **niet** voor advertenties of profilering. Zie *Diagnostiek, crashrapportage
+  en gebruiksstatistieken*.
 
 We verzamelen **géén** advertentie-identifiers, contacten, foto's, of
 content van andere apps.
@@ -84,13 +95,42 @@ direct tot permanente verwijdering.
 
 ## Cookies en tracking
 
-De app gebruikt **geen** cookies, **geen** advertentie-identifiers en
-**geen** analytics-tracking op individueel niveau.
+De app gebruikt **geen** cookies en **geen** advertentie-identifiers. We
+verkopen, verhuren of delen je gegevens **niet** met advertentienetwerken,
+analytics-derden of marketingpartners, en we gebruiken je gegevens **niet**
+voor advertenties of voor profilering.
 
-Firebase Analytics is in de app **uitgeschakeld** voor user-level events.
-Indien er in de toekomst geaggregeerde gebruiksstatistieken worden ingezet
-(bv. crash-rates), gebeurt dat uitsluitend in geanonimiseerde, geaggregeerde
-vorm — nooit herleidbaar tot individuele gebruikers.
+## Diagnostiek, crashrapportage en gebruiksstatistieken
+
+Om de app stabiel en bruikbaar te houden gebruiken we twee Firebase-diensten
+van Google (als verwerker, in onze opdracht):
+
+- **Firebase Crashlytics** — registreert crashes en niet-fatale fouten met
+  technische context (bijv. de stap waarin de fout optrad), zodat we storingen
+  kunnen vinden en oplossen.
+- **Firebase Analytics** — registreert technische kerngebeurtenissen van het
+  app-gebruik, zoals een rit die start of afrondt, een handmatige rit, een
+  export, een synchronisatie (gelukt/mislukt), de auto-modus en knop-acties.
+  Hiermee zien we of verwachte functies daadwerkelijk werken en waar gebruikers
+  vastlopen.
+
+**Koppeling aan je account.** Als je bent ingelogd, koppelen we deze
+diagnostische gebeurtenissen aan je gebruikers-id (de Firebase-uid) en aan
+technische app-eigenschappen (zoals de app-versie). Daardoor kan een storing
+die jij ondervindt gericht worden onderzocht en opgelost — ook **zonder dat je
+zelf feedback hoeft te sturen**. Bij uitloggen of accountverwijdering wordt deze
+koppeling gewist. Deze gegevens worden uitsluitend gebruikt voor foutopsporing
+en productverbetering en worden niet gedeeld met andere partijen dan Google als
+verwerker (servers binnen de EU, versleuteld in transit).
+
+**Diagnose op verzoek van support.** Wanneer dat nodig is om een gemeld of
+waargenomen probleem op te lossen, kan onze support een diagnostische
+momentopname van je apparaat ophalen: app-versie, apparaatmodel, instellingen,
+aantallen (ritten/klanten/locaties/regels) en de recente technische app-logs.
+Deze momentopname bevat **géén ritlocaties of ruwe GPS-data**. De app-logs zijn
+technisch van aard maar kunnen incidenteel technische gegevens bevatten die in
+logregels terechtkomen. De ophaling wordt server-side geïnitieerd door
+geautoriseerde support; je apparaat kan zo'n verzoek zelf niet aanmaken.
 
 ## Je rechten onder de AVG/GDPR
 
@@ -141,4 +181,11 @@ E-mail: [rutger@craft-digital.nl](mailto:rutger@craft-digital.nl)
 
 ## Changelog
 
+- **v1.1 — 2026-06-27** — Diagnostiek-paragraaf toegevoegd en de
+  tracking-paragraaf bijgewerkt: de app gebruikt Firebase Crashlytics en
+  Firebase Analytics voor crash- en gebruiksstatistieken, gekoppeld aan je
+  gebruikers-id wanneer je bent ingelogd, uitsluitend voor foutopsporing en
+  productverbetering (nooit voor advertenties of profilering). Verduidelijkt dat
+  support een diagnostische momentopname (incl. recente technische app-logs,
+  géén GPS/route) op verzoek kan ophalen zonder gebruikersactie.
 - **v1.0 — 2026-05-27** — Initiële publicatie.
