@@ -5,14 +5,14 @@ title: Privacy policy — Weg.log Ritregistratie
 
 # Privacyverklaring — Weg.log Ritregistratie
 
-**Versie 1.1 — Laatst bijgewerkt: 2026-06-27**
+**Versie 1.2 — Laatst bijgewerkt: 2026-06-30**
 
 Deze privacyverklaring beschrijft welke gegevens de Weg.log Ritregistratie-app
 ("de app") verzamelt, waarom, hoe lang we ze bewaren en welke rechten je hebt
 op basis van de Algemene Verordening Gegevensbescherming (AVG/GDPR).
 
 De verwerkingsverantwoordelijke is **Rutger Thus** (Craft Digital), bereikbaar
-via [rutger@craft-digital.nl](mailto:rutger@craft-digital.nl).
+via [support@weg-log.nl](mailto:support@weg-log.nl).
 
 ## Welke gegevens verzamelen we
 
@@ -136,7 +136,7 @@ geautoriseerde support; je apparaat kan zo'n verzoek zelf niet aanmaken.
 
 Als gebruiker heb je de volgende rechten met betrekking tot jouw
 persoonsgegevens. Je kunt elk verzoek indienen door een e-mail te sturen naar
-[rutger@craft-digital.nl](mailto:rutger@craft-digital.nl). We reageren in de
+[support@weg-log.nl](mailto:support@weg-log.nl). We reageren in de
 regel binnen 14 dagen.
 
 - **Inzage** — een overzicht ontvangen van alle gegevens die we van je
@@ -177,10 +177,14 @@ hieronder in de changelog vermeld.
 Vragen, verzoeken of klachten kun je richten aan:
 
 **Rutger Thus — Craft Digital**
-E-mail: [rutger@craft-digital.nl](mailto:rutger@craft-digital.nl)
+E-mail: [support@weg-log.nl](mailto:support@weg-log.nl)
 
 ## Changelog
 
+- **v1.2 — 2026-06-30** — Contact-e-mail gewijzigd van `rutger@craft-digital.nl`
+  naar `support@weg-log.nl` (verwerkingsverantwoordelijke blijft Rutger Thus —
+  Craft Digital). Geldt voor de contact-, rechten- en
+  verwerkingsverantwoordelijke-secties.
 - **v1.1 — 2026-06-27** — Diagnostiek-paragraaf toegevoegd en de
   tracking-paragraaf bijgewerkt: de app gebruikt Firebase Crashlytics en
   Firebase Analytics voor crash- en gebruiksstatistieken, gekoppeld aan je
